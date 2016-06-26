@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Report Screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="top">Mobion - Reports</string>
+    <string name="head1">Attended Conference Details</string>
+    <string name="head2">Organised Conference Details</string>
+    <string name="title_activity_confrence">ConfrenceActivity</string>
+    <string name="menu">Menus</string>
+    <string name="title_activity_conference">ConferenceActivity</string>
+    <string name="title_activity_videocall">VideocallActivity</string>
+    <string name="vidhead1">Your Dialed calls</string>
+    <string name="vidhead2">Your Received Calls</string>
+    <string name="vidhead3">Your Missed Calls</string>
+    <string name="mesagesent">Your Sent Messages</string>
+    <string name="messagerec">Your Received Messages</string>
+    <string name="title_activity_dialed">DialedActivity</string>
+    <string name="title_activity_received">ReceivedActivity</string>
+    <string name="title_activity_missed">MissedActivity</string>
+    <string name="title_activity_voicecall">VoicecallActivity</string>
+    <string name="title_activity_voice_call_dialed">VoiceCallDialedActivity</string>
+    <string name="title_activity_voice_call_received">VoiceCallReceivedActivity</string>
+    <string name="title_activity_voice_call_missed">VoiceCallMissedActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_messages_sent">MessagesSentActivity</string>
+    <string name="title_activity_messages_recv">MessagesRecivedActivity</string>
+    <string name="mobionmenuheader">Mobion - Reports</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.confrencescreen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+       >
+        <activity
+            android:name="com.example.confrencescreen.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.confrencescreen.ConferenceAttendedActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.confrencescreen.ConferenceOrganisedActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.ConferenceActivity"
+            android:label="@string/title_activity_conference" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VideocallActivity"
+            android:label="@string/title_activity_videocall" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.Videocall"
+            android:label="@string/title_activity_videocall" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VideoCallDialedActivity"
+            android:label="@string/title_activity_dialed" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VideoCallReceivedActivity"
+            android:label="@string/title_activity_received" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VideoCallMissedActivity"
+            android:label="@string/title_activity_missed" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VoicecallActivity"
+            android:label="@string/title_activity_voicecall" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VoiceCallDialedActivity"
+            android:label="@string/title_activity_voice_call_dialed" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VoiceCallReceivedActivity"
+            android:label="@string/title_activity_voice_call_received" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.VoiceCallMissedActivity"
+            android:label="@string/title_activity_voice_call_missed" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.MessagesSentActivity"
+            android:label="@string/title_activity_messages_sent" >
+        </activity>
+        <activity
+            android:name="com.example.confrencescreen.MessageRecivedActivity"
+            android:label="@string/title_activity_messages_recv" >
+        </activity>
+    </application>
+
+</manifest>
